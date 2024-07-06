@@ -16,10 +16,12 @@ form {
 
 form label {
     margin-right: 10px;
+    color: white;
 }
 
 form input {
     margin-right: 20px;
+    color: rgb(0, 0, 0);
 }
 
 table {
@@ -29,14 +31,15 @@ table {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 th, td {
     padding: 10px;
     text-align: left;
+    color: white;
 }
 
 thead {
-    background-color: #f2f2f2;
+    background-color: #000000;
 }
