@@ -1,5 +1,6 @@
 body{
     background-color: rgb(50,50,50);
+    font-size: 62.5%;
 }
   
 button{
@@ -12,6 +13,14 @@ button{
   font-weight: 600;
   letter-spacing: 1.2px;
   transition: 0.5s;
+}
+h1{
+  color:black;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-top:10vh;
+  
+
 }
   
 button:hover{
@@ -48,8 +57,25 @@ header{
   background-size:cover;
   background-position: 0-20px center;
   filter:brightness(60%);
-  border : solid white 2px;
+  border : solid white 1px;
 
+}
+.incomeBox{
+  background-color:rgba(68, 33, 156, 0.74);
+  height : 40vh;
+  width: 100%;
+  border-radius: 30px;
+  border:solid white 1px;
 
 
 }
+.expenseBox{
+  background-color:rgba(117,94,89);
+  height : 40vh;
+  width: 100%;
+  border-radius: 30px;
+  border:solid white 1px;
+}
+
+
+
